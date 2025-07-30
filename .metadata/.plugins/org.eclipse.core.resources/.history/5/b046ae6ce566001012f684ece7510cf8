@@ -1,0 +1,12 @@
+-- 1 번 : select
+-- employee_id : 직원 번호(사번) PK
+-- first_name / last_name : 이름 / 성
+-- email : 이메일
+-- phone_number : 전화번호
+-- hire_date : 입사일
+-- job_id : 직책(직무)
+-- salary : 급여
+-- manager_id : 상사
+-- department_id : 부서 
+
+SELECT * FROM employees;

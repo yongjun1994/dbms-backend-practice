@@ -1,0 +1,4 @@
+workspace/.metadata/
+workspace/dbeaver-workspace.properties
+*.zip
+*.exe
