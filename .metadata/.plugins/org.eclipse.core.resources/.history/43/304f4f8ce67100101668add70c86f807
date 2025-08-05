@@ -1,0 +1,3 @@
+use webdb;
+
+SELECT * FROM tbl_user;

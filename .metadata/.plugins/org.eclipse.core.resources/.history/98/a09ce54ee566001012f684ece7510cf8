@@ -1,5 +1,0 @@
--- 1 번 : select
--- employee_id : 직원 번호(사번) PK
--- first_name / last_name : 이름 / 성
-
-SELECT * FROM employees;

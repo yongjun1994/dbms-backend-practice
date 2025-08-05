@@ -96,7 +96,8 @@ SELECT * FROM tbl_user;
 -- 현재 번호 확인
 SELECT seq_user_no.currval FROM dual;
 -- 다음 번호 확인
-SELECT seq_user_no.nextval FROM dual; --무조건소모
+--무조건소모
+SELECT seq_user_no.nextval FROM dual; 
 
 
 
@@ -134,7 +135,7 @@ WHERE user_id = 'test' AND user_pw = 'test123';
 
 SELECT * FROM tbl_user;
 
-TRUNCATE TABLE TBL_USER;
+--TRUNCATE TABLE TBL_USER;
 
 -- 회원 1명 탈퇴
 DELETE FROM TBL_USER;

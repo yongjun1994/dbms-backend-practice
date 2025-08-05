@@ -1,0 +1,7 @@
+create table tbl_user(
+	user_id varchar(20) primary key,
+	user_name varchar(20) not null,
+	user_age int,
+);
+
+SELECT * FROM tbl_user;

@@ -1,0 +1,44 @@
+-- mysql은 데이터베이스 먼저 선택해야한다
+-- 생성된 DB 사용
+use world;
+
+select * from city;
+
+-- 데이터 베이스 생성
+create database webdb;
+-- 데이터베이스 삭제
+drop database webdb;
+-- 데이터베이스 재생성
+create database webdb character set utf8mb4;
+
+-- 데이터베이스 사용
+use webdb;
+
+create table tbl_user(
+   user_id int auto_increment primary key,
+   user_name varchar(20) not null,
+   user_age int,
+   created_date datetime default CURRENT_TIMESTAMP
+);
+
+select * from tbl_user;
+
+drop table tbl_user;
+
+insert into tbl_user(user_name, user_age)
+values ('짱구', 5);
+
+select * from tbl_user;
+
+insert into tbl_user(user_name, user_age)
+values ('철수', 5), ('맹구', 5);
+
+show table status like 'tbl_user';
+
+show table status;
+
+use world;
+
+select * from city;
+
+use webdb;

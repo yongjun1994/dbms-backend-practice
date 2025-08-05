@@ -1,0 +1,7 @@
+use webdb;
+
+SELECT * FROM tbl_user;
+
+-- 회원가입 진행(INSERT)
+insert into TBL_USER(USER_NAME, USER_AGE)
+values ('훈이', 6);

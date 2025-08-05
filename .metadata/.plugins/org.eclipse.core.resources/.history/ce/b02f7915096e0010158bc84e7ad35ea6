@@ -1,0 +1,5 @@
+-- mysql은 데이터베이스 먼저 선택해야한다
+-- 생성된 DB 사용
+use world;
+
+select * from city;

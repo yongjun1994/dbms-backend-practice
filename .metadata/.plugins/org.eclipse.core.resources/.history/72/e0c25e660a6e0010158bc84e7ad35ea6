@@ -1,0 +1,23 @@
+-- mysql은 데이터베이스 먼저 선택해야한다
+-- 생성된 DB 사용
+use world;
+
+select * from city;
+
+-- 데이터 베이스 생성
+create database webdb;
+-- 문자열 인코딩 방식을 지정
+create database webdb character set utf8mb4;
+
+-- 데이터 베이스 삭제
+drop database webdb;
+
+create table tbl_user
+(user_id varchar(20) constraint pk_user primary key,
+user_name varchar(20) not null,
+user_age int
+);
+
+SELECT * FROM tbl_user;
+
+DROP TABLE tbl_user;
